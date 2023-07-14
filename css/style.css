@@ -81,6 +81,58 @@ body {
   font-family: "Manrope";
 }
 
+.dark-mode * {
+  background-color: black;
+  color: white;
+}
+.dark-mode * .home * {
+  color: #fff;
+}
+.dark-mode * .home * .home__info button {
+  background-color: grey;
+}
+.dark-mode * .stats__container {
+  background-color: black;
+  color: #fff;
+}
+.dark-mode * .stats__container .stats__header__title {
+  color: #fff;
+}
+.dark-mode * .service * {
+  color: #fff;
+}
+.dark-mode * .service * .service__card {
+  background-color: black;
+  color: white;
+}
+.dark-mode * .service * .service__card .service__bullet__points p {
+  color: #fff;
+}
+.dark-mode * .nav__container {
+  color: #fff;
+}
+.dark-mode * .nav__container .nav__list__link {
+  color: #fff;
+}
+.dark-mode * .nav__container #navbar-responsive {
+  background-color: black;
+}
+.dark-mode * .nav__container #navbar-responsive .res__nav__link {
+  color: #fff;
+}
+.dark-mode * .nav__container #navbar-responsive .dark-mode {
+  background-color: #fff;
+}
+.dark-mode * .nav__container #navbar-responsive .dark-mode .dark__light__mode {
+  background-color: transparent;
+}
+.dark-mode * .nav__container .humburger {
+  background-color: white;
+}
+.dark-mode * .nav__container .humburger .hamburger__btn img {
+  background-color: #fff;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -123,7 +175,10 @@ header {
 
 .dark-mode {
   border: none;
-  background-color: transparent;
+  background-color: white;
+}
+.dark-mode .dark__light__mode {
+  background-color: white;
 }
 
 .hamburger {
@@ -215,55 +270,6 @@ header {
     width: 60%;
   }
 }
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-.dark-mode #navbar-responsive {
-  background-color: black;
-}
-.dark-mode #navbar-responsive #navbar-close {
-  background-color: white;
-}
-.dark-mode header * {
-  color: #fff;
-  background-color: black;
-}
-.dark-mode .home__container * {
-  color: #fff;
-}
-.dark-mode .hamburger__btn {
-  background-color: white;
-}
-.dark-mode .service * {
-  color: #fff;
-}
-.dark-mode .about * {
-  color: white;
-}
-.dark-mode .about__container {
-  color: #fff;
-}
-.dark-mode .about__container__title, .dark-mode .about__container__subtitle {
-  color: #fff;
-}
-.dark-mode .about__container__row__card__text {
-  color: black;
-}
-.dark-mode .home__container * {
-  color: white;
-}
-.dark-mode .home__container * .home__btn {
-  color: black;
-}
-.dark-mode .home__container * .home__btn:hover {
-  color: #fff;
-}
-
-.dark-mode * {
-  color: white;
-}
-
 main {
   margin-top: 85px;
   background-color: #f7f6ff;

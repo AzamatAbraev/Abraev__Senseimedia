@@ -42,7 +42,10 @@ header {
 
 .dark-mode {
   border: none;
-  background-color: transparent;
+  background-color: white;
+  .dark__light__mode {
+    background-color: white;
+  }
 }
 
 .hamburger {
@@ -134,63 +137,5 @@ header {
   .nav__logo {
     width: 60%;
   }
-}
-
-.dark-mode {
-  background-color: black;
-  color: white;
-  #navbar-responsive {
-    background-color: black;
-    #navbar-close {
-      background-color: white;
-    }
-  }
-
-  header * {
-    color: #fff;
-    background-color: black;
-  }
-
-  .home__container * {
-    color: #fff;
-  }
-
-  .hamburger__btn {
-    background-color: white;
-  }
-
-  .service * {
-    color: #fff;
-  }
-
-  .about * {
-    color: white;
-  }
-
-  .about__container {
-    color: #fff;
-    &__title, &__subtitle {
-      color: #fff;
-    }
-    &__row__card__text {
-      color: black;
-    }
-  }
-
-  .home__container * {
-    color: white;
-
-    .home__btn {
-      color: black;
-
-      &:hover {
-        color: #fff;
-      }
-    }
-  }
-}
-
-.dark-mode * {
-  color: white;
 }
 

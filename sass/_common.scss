@@ -38,3 +38,58 @@ body {
   font-family: "Manrope";
 }
 
+.dark-mode * {
+  .home * {
+    color: #fff;
+    .home__info button {
+      background-color: grey;
+    }
+  }
+
+  .stats__container {
+    background-color: black;
+    color: #fff;
+    .stats__header__title {
+      color: #fff;
+    }
+  }
+
+  .service * {
+    color: #fff;
+    .service__card {
+      background-color: black;
+      color: white;
+      .service__bullet__points p {
+        color: #fff;
+      }
+    }
+  }
+  .nav__container {
+    color: #fff;
+    .nav__list__link {
+      color: #fff;
+    }
+    #navbar-responsive{
+      background-color: black;
+      .res__nav__link {
+        color: #fff;
+      }
+
+      .dark-mode{
+        background-color: #fff;
+        .dark__light__mode {
+          background-color: transparent;
+        }
+      }
+    }
+
+    .humburger {
+      background-color: white;
+      .hamburger__btn img {
+        background-color: #fff;
+      }
+    }
+  }
+  background-color: black;
+  color: white;
+}
