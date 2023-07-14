@@ -1,0 +1,129 @@
+.service {
+  padding-top: 76px;
+  padding-bottom: 92px;
+}
+
+.service__card {
+  display: flex;
+  flex-direction: column;
+  // max-width: 222px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+  &__header {
+    padding: 11px 0px;
+    border-radius: 15px 15px 0px 0px;
+    background: #77b2d3;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+    .service__card__title {
+      color: #fff;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 26px;
+      text-transform: uppercase;
+    }
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: left;
+    padding-left: 16px;
+    padding-top: 18px;
+    padding-bottom: 94px;
+    .service__bullet__points {
+      display: flex;
+      gap: 6px;
+      .service__body__desc {
+        color: $primary-text-color;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+    }
+  }
+
+  &__footer {
+    p {
+      color: $primary-text-color;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      padding: 11px 0px 15px 16px;
+      border-top: 1px solid #e2e2e2;
+      color: #e1267f;
+      span {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+.service__header {
+  margin-bottom: 41px;
+  margin-top: 76px;
+}
+
+.service__title {
+  color: $primary-text-color;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.service__btn {
+  @extend %btn;
+  width: 100%;
+  margin-top: 21px;
+  padding-left: 53px;
+  padding-right: 53px;
+}
+
+.service__row__btn {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.service__row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 18px;
+}
+
+.service__row__btn {
+  text-align: center;
+}
+
+@media (max-width: 1150px) {
+  .service__row {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .service__row {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  .service__row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 550px) {
+  .service__row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+

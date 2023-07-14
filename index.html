@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Senseimedia</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container nav__container">
+          <div class="nav__logo">
+            <img class="nav__logo__img" src="images/logo.svg" alt="Logo" />
+          </div>
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__list__item">
+                <a href="#" class="nav__list__link">Главная</a>
+              </li>
+              <li class="nav__list__item">
+                <a href="#" class="nav__list__link"> Услуги</a>
+              </li>
+              <li class="nav__list__item">
+                <a href="#" class="nav__list__link">Наши работы</a>
+              </li>
+              <li class="nav__list__item">
+                <a href="#" class="nav__list__link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav__btn">
+            <button class="header__btn">Заказать звонок</button>
+          </div>
+          <div class="hamburger" id="navbar-open">
+            <button class="hamburger__btn">
+              <img src="images/menu.svg" alt="Menu" />
+            </button>
+          </div>
+          <div id="navbar-responsive">
+            <ul class="res__nav__list">
+              <li class="res__nav__item">
+                <a href="#" class="res__nav__link"> Главная</a>
+              </li>
+              <li class="res__nav__item">
+                <a href="#" class="res__nav__link">Услуги</a>
+              </li>
+              <li class="res__nav__item">
+                <a href="#" class="res__nav__link">Наши работы</a>
+              </li>
+              <li class="res__nav__item">
+                <a href="#" class="res__nav__link">Контакты</a>
+              </li>
+              <li class="res__nav__item">
+                <button class="header__btn">Заказать звонок</button>
+              </li>
+              <li class="res__nav__item">
+                <button onclick="myFunction()" class="dark-mode">
+                  <img
+                    class="dark__light__mode"
+                    src="images/dark-light.svg"
+                    alt=""
+                  />
+                </button>
+              </li>
+            </ul>
+            <button id="navbar-close">
+              <img src="images/close.svg" alt="Close" />
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="home">
+        <div class="container home__container">
+          <div class="home__info">
+            <div class="home__info__desc">
+              <h1 class="home__info__title">
+                Студия дизайна <span>полного цикла</span>
+              </h1>
+              <p class="home__info__text">
+                От дизайна визиток до дизайна сайтов
+              </p>
+            </div>
+            <div class="home__info__buttons">
+              <button class="home__btn__1">Комплексные решения</button>
+              <button class="home__btn__2">Логотипы</button>
+              <button class="home__btn__3">Логотипы</button>
+            </div>
+          </div>
+          <div class="home__img">
+            <img
+              class="home__main__img"
+              src="images/home-main.svg"
+              alt="Home Page Main"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="stats">
+        <div class="container stats__container">
+          <div class="stats__header">
+            <h2 class="stats__header__title">Мы знаем толк в дизайне!</h2>
+          </div>
+          <div class="stats__row">
+            <div class="stats__card card__border__1">
+              <h3 class="stats__card__number">6 лет</h3>
+              <p class="stats__card__info">В сфере рекламы</p>
+            </div>
+            <div class="stats__card card__border__2">
+              <h3 class="stats__card__number">100+</h3>
+              <p class="stats__card__info">Наших постоянных клиентов</p>
+            </div>
+            <div class="stats__card card__border__3">
+              <h3 class="stats__card__number">+20%</h3>
+              <p class="stats__card__info">Конверсия продаж</p>
+            </div>
+            <div class="stats__card card__border__4">
+              <h3 class="stats__card__number">-70%</h3>
+              <p class="stats__card__info">Ошибок менеджеров</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="service">
+        <div class="container service__container">
+          <div class="service__header">
+            <h2 class="service__title">Наши услуги</h2>
+          </div>
+          <div class="service__row">
+            <div class="service__column">
+              <div class="service__card">
+                <div class="service__card__header">
+                  <h3 class="service__card__title">Рекламные материалы</h3>
+                </div>
+                <div class="service__card__body">
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Верстка макетов</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Флаеры</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Визитки</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Брошюры</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Листовки</p>
+                  </div>
+                </div>
+                <div class="service__card__footer">
+                  <p>от <span>2000 руб.</span></p>
+                </div>
+              </div>
+              <div class="service__row__btn">
+                <button class="service__btn">Подробнее</button>
+              </div>
+            </div>
+            <div class="service__column">
+              <div class="service__card">
+                <div class="service__card__header">
+                  <h3 class="service__card__title">Рекламные материалы</h3>
+                </div>
+                <div class="service__card__body">
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Верстка макетов</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Флаеры</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Визитки</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Брошюры</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Листовки</p>
+                  </div>
+                </div>
+                <div class="service__card__footer">
+                  <p>от <span>2000 руб.</span></p>
+                </div>
+              </div>
+              <div class="service__row__btn">
+                <button class="service__btn">Подробнее</button>
+              </div>
+            </div>
+            <div class="service__column">
+              <div class="service__card">
+                <div class="service__card__header">
+                  <h3 class="service__card__title">Рекламные материалы</h3>
+                </div>
+                <div class="service__card__body">
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Верстка макетов</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Флаеры</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Визитки</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Брошюры</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Листовки</p>
+                  </div>
+                </div>
+                <div class="service__card__footer">
+                  <p>от <span>2000 руб.</span></p>
+                </div>
+              </div>
+              <div class="service__row__btn">
+                <button class="service__btn">Подробнее</button>
+              </div>
+            </div>
+            <div class="service__column">
+              <div class="service__card">
+                <div class="service__card__header">
+                  <h3 class="service__card__title">Рекламные материалы</h3>
+                </div>
+                <div class="service__card__body">
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Верстка макетов</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Флаеры</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Визитки</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Брошюры</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Листовки</p>
+                  </div>
+                </div>
+                <div class="service__card__footer">
+                  <p>от <span>2000 руб.</span></p>
+                </div>
+              </div>
+              <div class="service__row__btn">
+                <button class="service__btn">Подробнее</button>
+              </div>
+            </div>
+            <div class="service__column">
+              <div class="service__card">
+                <div class="service__card__header">
+                  <h3 class="service__card__title">Рекламные материалы</h3>
+                </div>
+                <div class="service__card__body">
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Верстка макетов</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Флаеры</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Визитки</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Брошюры</p>
+                  </div>
+                  <div class="service__bullet__points">
+                    <img src="images/verify.svg" alt="verify" />
+                    <p class="service__body__desc">Листовки</p>
+                  </div>
+                </div>
+                <div class="service__card__footer">
+                  <p>от <span>2000 руб.</span></p>
+                </div>
+              </div>
+              <div class="service__row__btn">
+                <button class="service__btn">Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="JS/main.js"></script>
+  </body>
+</html>

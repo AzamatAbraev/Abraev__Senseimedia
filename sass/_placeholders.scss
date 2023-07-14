@@ -1,0 +1,27 @@
+%primary-text {
+  color: $primary-text-color;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+%btn {
+  font-weight: 600;
+  line-height: 26px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 9px;
+  font-size: 16px;
+  border-radius: 9px;
+  background: $primary-btn-color;
+}
+
+%home__btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 250px;
+  background: #77b2d3;
+}

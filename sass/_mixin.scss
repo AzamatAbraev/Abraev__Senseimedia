@@ -1,0 +1,8 @@
+@mixin btn($paddingY: 14, $paddingX, $fontSize: 16, $borderRadius: 9) {
+  padding: $paddingY + px $paddingX + px;
+  border-radius: $borderRadius + px;
+  font-size: $fontSize + px;
+  background: $primary-btn-color;
+  font-weight: 600;
+  line-height: 26px;
+}
